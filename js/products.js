@@ -80,7 +80,7 @@ PRODUCTS=[
     },
      {
         id: "10",
-        img : "/Imagenes/" ,
+        img : "/Imagenes/aceite.png" ,
         name: "Aroma oil",
         price:"$90" ,
         ShoppingCart:"/Imagenes/shopping bag-01.png"
@@ -89,7 +89,7 @@ PRODUCTS=[
     },
      {
         id: "11",
-        img : "/Imagenes/salt.png" ,
+        img : "/Imagenes/exfoliante.png" ,
         name: "Exfoliant salt",
         price:"$170" ,
         ShoppingCart:"/Imagenes/shopping bag-01.png"
@@ -98,7 +98,7 @@ PRODUCTS=[
     },
     {
         id: "12",
-        img : "/Imagenes/diffuser.png" ,
+        img : "/Imagenes/difusser.png" ,
         name: "Diffuser",
         price:"$300" ,
         ShoppingCart:"/Imagenes/shopping bag-01.png"
