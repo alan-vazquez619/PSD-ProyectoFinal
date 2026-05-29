@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sirenia - CheckOut</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/styleCheckout.css">
 </head>
 
 <body>
@@ -20,26 +20,26 @@
         </ul>
 
         <div class="nav-logo">
-            <a href="#">
-                <img src="sirenia.png" alt="Sirenia Logo">
+            <a href="index.html">
+                <img src="/Imagenes/SireniaLogo.png" alt="Sirenia Logo">
             </a>
         </div>
 
-        <div class="nav-right">
+        <div class="nav-buscador">
 
             <div class="barra-busqueda">
                 <input type="text" placeholder="Search...">
             </div>
 
             <div class="cart-icon">
-                <a href="#">
-                    <img src="cart-icon.png" alt="Shopping cart">
+                <a href="ShoppingCart.html">
+                    <img src="/Imagenes/shopping bag-01.png" alt="Shopping cart">
                 </a>
             </div>
 
             <div class="user-icon">
                 <a href="#">
-                    <img src="user-icon.png" alt="User account">
+                    <img src="/Imagenes/user-01.png" alt="User account">
                 </a>
             </div>
 
@@ -86,8 +86,11 @@
 
             <div class="checkout-card">
 
+                <div class="section">
+                <img src="/Imagenes/UserInfo-ICON.png" width="40px" height="40px">
                 <h3>1. Personal information</h3>
-
+                </div>
+               
                 <div class="form-grid">
 
                     <div class="input-group">
@@ -110,8 +113,11 @@
             </div>
 
             <div class="checkout-card">
-
-                <h3>2. Shipping</h3>
+               
+                <div class="section">
+                     <img src="/Imagenes/shipping car.png" width="55px" height="40px">
+                     <h3>2. Shipping</h3>
+                 </div>
 
                 <div class="form-grid shipping-grid">
 
@@ -122,17 +128,17 @@
 
                     <div class="input-group">
                         <label>City</label>
-                        <input type="text">
+                        <input type="text" placeholder="Your City">
                     </div>
 
                     <div class="input-group">
                         <label>State / Region</label>
-                        <input type="text">
+                        <input type="text" placeholder="Select">
                     </div>
 
                     <div class="input-group">
                         <label>ZIP Code</label>
-                        <input type="text">
+                        <input type="text" placeholder="1234">
                     </div>
 
                 </div>
@@ -141,7 +147,7 @@
 
                     <div class="delivery-card active-card">
 
-                        <img src="home-icon.png" alt="Home Delivery">
+                        <img src="/Imagenes/Home delivery.png" alt="Home Delivery">
 
                         <h4>Home delivery</h4>
 
@@ -153,7 +159,7 @@
 
                     <div class="delivery-card">
 
-                        <img src="store-icon.png" alt="Store pickup">
+                        <img src="/Imagenes/Pick-up store.png" alt="Store pickup">
 
                         <h4>Store pick-up</h4>
 
@@ -207,7 +213,7 @@
 
             <div class="summary-card">
 
-                <img src="producto.png" alt="Product Image" class="product-image">
+                <img src="/Imagenes/masksinfondo.png" alt="Product Image" class="product-image">
 
                 <div class="summary-info">
 
@@ -226,11 +232,17 @@
                         <span>$100.00</span>
                     </div>
 
-                </div>
+                    <div class="summary-thanks">
+                        <p>Thankyou for supporting local and handmade with love</p>
+                    </div>
 
+                </div>
+                <a href="OrderConfirmation.html">
                 <button class="purchase-btn">
                     Complete purchase
-                </button>
+                </button> 
+             </a>
+               
 
             </div>
 
@@ -260,12 +272,12 @@
             <h4>Contact us</h4>
 
             <p>
-                <img src="telefono-icon.png" alt="Phone">
+                <img src="/Imagenes/phone-01.png" alt="Phone">
                 +52 686 786 3345
             </p>
 
             <p>
-                <img src="instagram-icon.png" alt="Instagram">
+                <img src="/Imagenes/insta-01.png" alt="Instagram">
                 @sirenia_spc
             </p>
 
@@ -284,7 +296,7 @@
 
         <div class="footer-info footer-logo-info">
 
-            <img src="logo-sirenia.png"
+            <img src="/Imagenes/SireniaLogo.png"
                  alt="Sirenia Logo"
                  class="footer-logo">
 
