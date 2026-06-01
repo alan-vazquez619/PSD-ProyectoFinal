@@ -114,11 +114,59 @@ body{
 
 /* ===== END HEADER ===== */
 
+/* ===== PROGRESS BAR ===== */
+
+.checkout-progress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.step{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #9bb4eb;
+    font-size: 14px;
+}
+
+.circle{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 2px solid #9bb4eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.active .circle{
+    background: #8ea9e8;
+    color: white;
+    border: none;
+}
+
+.line{
+    width: 170px;
+    height: 2px;
+    background: #d8e1f5;
+    margin: 0 10px;
+    margin-bottom: 25px;
+}
+
+.active-line{
+    background: #8ea9e8;
+}
+
 
 /* ===== ORDER CONFIRMATION ===== */
 .order-tables{
     width: 100%;
-    padding: 60px 80px;
+    padding: 10px 80px;
     display: flex;
     justify-content: center;
 }
@@ -131,7 +179,7 @@ body{
 }
 
 
-/* ===== RIGHT SECTION ===== */
+/* ===== LEFT SECTION ===== */
 /*Thank You*/
 .left-section{
     width: 50%;
