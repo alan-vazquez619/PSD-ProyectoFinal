@@ -148,8 +148,8 @@ body{
 }
 
 .about-features img{
-    width: 85px !important;
-    height: 85px !important;
+    width: 85px;
+    height: 85px;
     object-fit: contain;
     display: block;
     margin: 0 auto 18px;
@@ -163,11 +163,20 @@ body{
 }
 
 .feature-card p{
-    font-size: 14px;
+    font-size: 25px;
     line-height: 1.7;
     color: #4f4f4f;
     max-width: 240px;
     margin: 0 auto;
+}
+.feature-icon{
+    width: 200px !important;
+    height: 200px !important;
+    max-width: 200px !important;
+    max-height: 200px !important;
+    object-fit: contain !important;
+    display: block;
+    margin: 0 auto 18px;
 }
 
 .about-message{
@@ -189,6 +198,7 @@ body{
 .about-message p:last-child{
     color: #7393ea;
 }
+
 
 .footer{
     background: #ffffff;
@@ -270,7 +280,7 @@ body{
 
 .footer-logo{
     width: 95px;
-    margin-bottom: 8px;
+    margin-bottom: 1px;
 }
 
 .copyright{
