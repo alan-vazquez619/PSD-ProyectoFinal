@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header{
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ececec;
+    padding: 8px 45px;
+}
+
+.nav-contenedor{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 28px;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    color: #9BB2F5;
+    font-size: 10px;
+    font-weight: 300;
+    transition: 0.3s ease;
+}
+
+.nav-menu li a:hover{
+    color: #7393ea;
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-logo img{
+    width: 105px;
+    display: block;
+}
+
+.nav-buscador{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 14px;
+}
+
+.barra-busqueda{
+    position: relative;
+}
+
+.barra-busqueda input{
+    width: 95px;
+    height: 18px;
+    border: none;
+    border-radius: 30px;
+    background-color: #EEF2FF;
+    padding: 0 12px;
+    outline: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    font-weight: 300;
+    color: #7c7c7c;
+}
+
+.cart-icon,
+.user-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-icon img,
+.user-icon img{
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    display: block;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.cart-icon img:hover,
+.user-icon img:hover{
+    transform: scale(1.08);
+}
+
+.about-container{
+    width: 100%;
+    text-align: center;
+    padding: 40px 20px 80px;
+}
+
+.about-hero h1{
+    font-size: 52px;
+    font-weight: 200;
+    color: #9BB2F5;
+    margin-bottom: 40px;
+}
+
+.about-hero h2{
+    font-size: 38px;
+    line-height: 1.4;
+    color: #8eaee3;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.about-description{
+    max-width: 620px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #4d4d4d;
+}
+
+.about-features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px 140px;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    margin: 110px auto;
+}
+
+.feature-card{
+    text-align: center;
+}
+
+.about-features img{
+    width: 85px !important;
+    height: 85px !important;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 18px;
+}
+
+.feature-card h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #111111;
+    margin-bottom: 14px;
+}
+
+.feature-card p{
+    font-size: 14px;
+    line-height: 1.7;
+    color: #4f4f4f;
+    max-width: 240px;
+    margin: 0 auto;
+}
+
+.about-message{
+    margin-top: 30px;
+}
+
+.heart{
+    color: #8eaee3;
+    font-size: 26px;
+    margin-bottom: 18px;
+}
+
+.about-message p{
+    font-size: 25px;
+    line-height: 1.9;
+    color: #4f4f4f;
+}
+
+.about-message p:last-child{
+    color: #7393ea;
+}
+
+.footer{
+    background: #ffffff;
+    padding: 18px 30px;
+    border-top: 1px solid #eee;
+    color: #c8c8c8;
+    box-shadow: 4px 4px 10px rgba(0.3,0.3,0.3,0.1);
+}
+
+.footer-contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.footer-info{
+    flex: 1;
+    min-width: 180px;
+    margin-left: 20px;
+}
+
+.footer-info h4{
+    font-size: 11px;
+    font-weight: 600;
+    color: #8eaee3;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.footer-info p{
+    font-size: 9px;
+    color: #c8c8c8;
+    line-height: 1.8;
+}
+
+.footer-info p:hover{
+    color: #d7d7d7;
+}
+
+
+.footer-info ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-info ul li{
+    margin-bottom: 10px;
+}
+
+.footer-info ul li a{
+    font-size: 9px;
+    color: #c8c8c8;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-info ul li a:hover{
+    color: #d7d7d7;
+}
+
+.footer-info p img{
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    vertical-align: middle;
+    opacity: 0.7;
+}
+
+.footer-logo-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    width: 180px;
+    margin-top: 10px;
+}
+
+.footer-logo{
+    width: 95px;
+    margin-bottom: 8px;
+}
+
+.copyright{
+    font-size: 7px;
+    color: #c8c8c8;
+    white-space: nowrap;
+    margin-top: 8px;
+}
