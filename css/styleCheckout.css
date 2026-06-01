@@ -378,7 +378,7 @@ body{
     border-color: #8ea9e8;
 }
 
-/* ===== DELIVERY ===== */
+/* --- DELIVERY --- */
 
 .delivery-options{
     display: flex;
@@ -401,6 +401,7 @@ body{
 .delivery-card:hover{
     transform: translateY(-5px);
 }
+
 
 .active-card{
     background: #dfe8fb;

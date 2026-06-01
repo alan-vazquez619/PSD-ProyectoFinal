@@ -25,3 +25,16 @@ for(let i= 0; i<PRODUCTS.length; i++){
 
         </div>
     `}
+
+/*Checkout*/    
+function seleccionar(card){
+
+    let tarjetas = document.querySelectorAll(".delivery-card");
+
+    tarjetas.forEach(function(tarjeta){
+        tarjeta.classList.remove("active-card");
+    });
+
+    card.classList.add("active-card");
+
+}

@@ -65,7 +65,7 @@
         <div class="product-gallery">
 
             <!-- Main image -->
-            <img
+            <img id="image-product"
                 src="/imagenes/mask.png"
                 alt="Cucumber Mask"
                 class="main-product-image"
@@ -87,11 +87,11 @@
         <!-- RIGHT SIDE -->
         <div class="product-info">
 
-            <h1>Cucumber Mask</h1>
+            <h1 id="nombre-producto">No disponible</h1>
 
-            <h2>$100</h2>
+            <h2 id="precio-producto">$100</h2>
 
-            <p class="description">
+            <p class="description" id="description-producto">
                 A refreshing cucumber sheet mask that gently cleanses
                 and cools the skin, leaving it soft, smooth, and revitalized.
             </p>
@@ -104,11 +104,11 @@
 
                 <div class="size-buttons">
 
-                    <button class="btn-blanco">100 ml</button>
+                    <button class="btn-blanco active-size" id="sizes-product1" onclick="seleccionar(this)"> - </button>
 
-                    <button class="btn-blanco">250 ml</button>
+                    <button class="btn-blanco " id="sizes-product2" onclick="seleccionar(this)"> - </button>
 
-                    <button class="btn-blanco">600 ml</button>
+                    <button class="btn-blanco " id="sizes-product3" onclick="seleccionar(this)"> - </button>
 
                 </div>
 
@@ -160,7 +160,7 @@
                 </div>
 
                 <p>
-                    This product is so amazing. My skin is perfect :)
+                    This product is so amazing. My skin is perfect :
                 </p>
 
                 <span>13 days ago</span>
@@ -340,7 +340,8 @@
 </footer>
 
 <!-- JS -->
-<script src="script.js"></script>
+<script src="/js/products.js"></script>
+<script src="/js/IndividualProduct.js"></script>
 
 </body>
 </html>

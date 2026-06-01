@@ -210,6 +210,10 @@ body{
     background-color: #EEF3FF;
 }
 
+.active-size{
+    background: #9BB2F5;
+    color: white;
+}
 
 /* link */
 
