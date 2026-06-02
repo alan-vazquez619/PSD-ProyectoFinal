@@ -496,12 +496,11 @@ body{
     background: #8ea9e8;
     color: white;
     font-size: 18px;
-    cursor: pointer;
     margin-top: 25px;
-    transition: 0.3s;
     align-items: center;
     text-align: center;
     justify-content: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .purchase-btn:hover{
