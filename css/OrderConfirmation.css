@@ -243,24 +243,19 @@ body{
     background-color: #8EAEE3;
     border-radius: 20px;
     padding: 20px;
-    justify-content: center;
-    text-align:center;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.6);
-    transition: transform 0.3s ease;
+    text-align: center;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
 }
+
 .btn-azul a{
-    font-family: 'Poppins', sans-serif;
-    color: white;
     text-decoration: none;
-    transition: transform 0.3s ease;
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
-/*Boton Azul Hover*/
+
 .btn-azul:hover{
-    transform: scale(1.08);
-    opacity: 0.30;    
-}
-.btn-azul:hover a{
-    transform: scale(1); 
+    background-color: #7393ea;
+    transform: translateY(-2px);
 }
 
 

@@ -505,7 +505,8 @@ body{
 }
 
 .purchase-btn:hover{
-   transform: scale(1.06) translateY(-8px);
+     background:#7393ea;
+    transform: translateY(-2px);
 }
 
 .secure-btn{

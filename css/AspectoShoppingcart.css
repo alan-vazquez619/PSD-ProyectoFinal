@@ -322,7 +322,8 @@ body{
 }
 
 .checkout-btn:hover{
-    background:#7393ea;
+      background:#7393ea;
+    transform: translateY(-2px);
 }
 
 .continue-shopping{
@@ -343,6 +344,7 @@ body{
 
 .continue-shopping button:hover{
     background:#7393ea;
+    transform: translateY(-2px);
 }
 
 .footer{
