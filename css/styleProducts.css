@@ -141,10 +141,11 @@ body{
 
 #contenedor-productos{
     display: grid;
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(3, 1fr);
     gap: 35px;
-    width: 95%;
-    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 
@@ -164,8 +165,7 @@ body{
 
 
 .enlista{
-    border-radius: 12px;
-    padding: 20px;
+    
     width: 100%;
     box-sizing: border-box;
 
